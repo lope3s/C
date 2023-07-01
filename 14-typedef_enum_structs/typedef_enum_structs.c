@@ -9,7 +9,8 @@ NUMBER one = 1;
 
 // Enumerated Types:
 // Using typedef and enum we can define a type that can have either one value or
-// another Every item in the enum definition is paired to an integer internally:
+// another.
+// Every item in the enum definition is paired to an integer internally:
 typedef enum {
   monday,    // 0
   tuesday,   // 1

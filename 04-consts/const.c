@@ -7,8 +7,8 @@ int main(void) {
   const int AGE = 24;
 
   // Differences between const and #define:
-  // consts are handled by the compile;
-  // #defines are handled by the pre-processo;
+  // consts are handled by the compiler;
+  // #defines are handled by the pre-processor;
 
   // Note that:
   // #define will have its type infered from the specified value at compile

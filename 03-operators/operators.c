@@ -11,7 +11,8 @@ int main(void) {
       division = a / b, modulo = a % b;
 
   // Unary operators;
-  int u_plus = +a, u_minus = -a;
+  int u_plus = +a; // 1 * a;
+  int u_minus = -a; // -1 * a;
 
   // The difference between 1 and 2 is:
   // 1: increments after using it;

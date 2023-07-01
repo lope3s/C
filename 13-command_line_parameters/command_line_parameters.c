@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(int argc, char *argv[]) {
-  // argc if a number that represents the quantity of params that where provided
+  // argc is a number that represents the quantity of params that where provided
   // in the command line.
 
   // argv is an array of string that is always going to have at least one item,

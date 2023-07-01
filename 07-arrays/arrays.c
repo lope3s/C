@@ -15,8 +15,8 @@ int main(void) {
   // to the first element of the array, and as such can be used like a normal
   // pointer.
 
-  // Other thing about C arrays is that all elements of an array are stored
-  // sequentially, one right after another.
+  // Other thing about C arrays is that all elements of an array are 
+  // sequentially stored in memory, one right after another.
 
   for (int index = 0; index < 5; index++) {
     printf("Initialized prices at %d: %d\n", index, initilized_prices[index]);

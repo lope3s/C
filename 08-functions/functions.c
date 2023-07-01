@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-// You can't create functions inside function in C;
+// You can't create functions inside a function in C;
 // And as C compiler read files top to bottom, this means that to our main
 // function be able to call our function, we should declare our functions before
-// our main function; But the main fn is the place where all the logic is
-// connected, so it's a little odd to first see the functions and then the main
-// fn, to keep things more organized you can declare the function prototype at
-// the top of the file and declare the function itself later on the file. With
-// this you're telling the compiler that the function exists before main is
-// called;
+// main;
+// But the main fn is the place where all the logic is connected, so it's a
+// little odd to first see the functions and then the main fn, to keep things
+// more organized you can declare the function prototype at the top of the file
+// and declare the function itself later on the file. With this you're telling
+// the compiler that the function exists before main is called;
 int sum(int a, int b);
 int deep_sum(int *a, int *b);
 
@@ -16,7 +16,7 @@ int main(void) {
   // C functions cannot return more than one value;
   // You can’t define a default value for a parameter.
   // Variable declared inside function are created at the point of invocation of
-  // the function and is destroyed when the function ends, and it's not visible
+  // the function and are destroyed when the function ends, and it's not visible
   // from the outside;
 
   int a = 1, b = 2;
