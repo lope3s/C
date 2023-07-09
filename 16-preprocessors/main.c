@@ -9,7 +9,7 @@ const int DEBUG = 0;
 #define PI 3.14
 
 // Macro;
-// Macros can accept a argument and typically contains code;
+// Macros can accept an argument and typically contains code;
 // The parentheses around the arguments is a good practice to avoid issues when
 // the macro is repaced in the precompilation process;
 #define POWER(x) ((x) * (x))
@@ -45,6 +45,6 @@ int main(void) {
 
   printf("line preprocessor: %d\n", __LINE__);
   printf("file preprocessor: %s\n", __FILE__);
-  printf("date preprocessor: %s\n", __DATE__);
-  printf("time preprocessor: %s\n", __TIME__);
+  printf("date preprocessor: %s\n", __DATE__); // last date file was updated;
+  printf("time preprocessor: %s\n", __TIME__); // last time file was updated;
 }

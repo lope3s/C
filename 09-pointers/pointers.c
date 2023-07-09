@@ -14,6 +14,7 @@ int main(void) {
   // Using the point operator on a call like this will
   // get the VALUE that the pointer points to, in this
   // case 37;
+  // Also known as deferring;
 
   printf("\nUsing pointers to alter the value of a variable:\n\n");
 
@@ -24,7 +25,7 @@ int main(void) {
   int *address = &my_age; // a pointer to my_age;
   printf("in memory address my_age variable: %p\n", address);
 
-  *address = 24;
+  *address = 24; // deferring;
   // using the pointer to initialize the previous declared variable;
   printf("using address to initialize my_age variable: %d\n", my_age);
 
